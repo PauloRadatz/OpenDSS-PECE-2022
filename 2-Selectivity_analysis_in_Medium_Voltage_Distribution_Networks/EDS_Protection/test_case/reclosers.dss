@@ -1,0 +1,3 @@
+new recloser.recloser1 monitoredobj=line.AB monitoredterm=1
+~ phasetrip=100 phasedelayed=vi tdphdelayed=0.5
+~ groundtrip=30 grounddelayed=vi tdgrdelayed=0.7

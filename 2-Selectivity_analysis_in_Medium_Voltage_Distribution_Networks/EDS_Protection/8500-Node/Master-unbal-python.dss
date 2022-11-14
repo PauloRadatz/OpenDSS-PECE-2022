@@ -1,0 +1,21 @@
+// Master file for 8500-Node IEEE Test Feeder Case
+// Unbalanced Load Case
+
+Clear
+
+New Circuit.IEEE8500u  
+
+! Make the source stiff with small impedance
+~ pu=1.05  r1=0  x1=0.001  r0=0  x0=0.001  
+
+Redirect  LineCodes2.dss
+Redirect  Triplex_Linecodes.dss
+
+Redirect  Lines.dss
+Redirect  Transformers.dss
+Redirect  LoadXfmrs.dss    ! Load Transformers
+Redirect  Triplex_Lines.dss
+Redirect  UnbalancedLoads.dss
+Redirect  Capacitors.dss
+Redirect  CapControls.dss
+Redirect  Regulators.dss

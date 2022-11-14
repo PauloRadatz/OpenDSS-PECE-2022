@@ -1,0 +1,3 @@
+New Recloser.SubBreaker Line.ln5815900-1 1
+~ phasetrip=100 phasedelayed=very_inv tdphdelayed=0.5
+~ groundtrip=30 grounddelayed=very_inv tdgrdelayed=0.7

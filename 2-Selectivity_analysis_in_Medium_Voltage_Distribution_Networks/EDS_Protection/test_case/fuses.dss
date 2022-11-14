@@ -1,0 +1,4 @@
+new fuse.fuse1 monitoredobj=line.CE monitoredterm=1 ratedcurrent=1 fusecurve=6k
+new fuse.fuse2 monitoredobj=line.DF monitoredterm=1 ratedcurrent=1 fusecurve=6k
+new fuse.fuse3 monitoredobj=line.DG monitoredterm=1 ratedcurrent=1 fusecurve=10k
+new fuse.fuse4 monitoredobj=line.GH monitoredterm=1 ratedcurrent=1 fusecurve=6k

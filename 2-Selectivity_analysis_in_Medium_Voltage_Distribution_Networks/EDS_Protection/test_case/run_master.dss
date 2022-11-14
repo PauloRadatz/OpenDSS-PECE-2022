@@ -1,0 +1,22 @@
+compile (master-python.dss)
+
+new energymeter.meter element=line.AB terminal=1
+
+set voltagebases=[13.8]
+calcvoltagebases
+
+!set mode=faultstudy
+
+solve
+
+buscoords buscoords.dss
+
+set markfuses=true
+set fusemarkercode=6
+set fusemarkersize=3
+
+set markreclosers=true
+set reclosermarkercode=6
+set reclosermarkersize=5
+
+plot circuit
